@@ -19,3 +19,63 @@ padding: 15px 30px;
 .item:not(:last-child){
     margin-left: 42px;
 }
+
+
+@media screen and (max-width:1024px) {
+
+    .list{
+        margin-left: 100px;
+    }
+
+    .item-link{
+        font-size: 12px;
+    }
+
+    .logo-img{
+        width: 45px;
+        height: 45px;
+    }
+
+    .button-btn{
+        font-size: 10px;
+        font-weight: 300;
+        padding: 7px 20px;
+    }
+
+}
+
+
+@media screen and (max-width:981px){
+    .list-cnt{
+    }
+    .list {
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .list a  {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .item{
+        margin-left:0;
+    }
+
+    .form-bog{
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .navbar-brand{
+        margin-right: 0;
+    }
+}   
