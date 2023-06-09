@@ -387,6 +387,10 @@ color: #FFFFFF;
   .item-link{
     font-size: 15px;
   }
+
+  .hero-title{
+    font-size: 25px;
+  }
 }
 
 
@@ -394,12 +398,17 @@ color: #FFFFFF;
 
   .hero-container h1 {
     width: 200px;
-    font-size: 20px;
+    font-size: 28px;
 }
 
   .hero-btn{
     font-size: 12px;
     padding: 8px 23px 15px 8px;
+  }
+
+
+  .hero-img{
+    background-size: 5500%;
   }
   
 }
